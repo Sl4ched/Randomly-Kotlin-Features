@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00AAD4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="360dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content"
+        android:text="Çıkış Yapmak İçin Bilgilerinizi Tekrar Giriniz"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"
+        android:hint="İsminizi Giriniz"
+        />
+
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="number"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
